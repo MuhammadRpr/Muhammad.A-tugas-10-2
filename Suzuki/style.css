@@ -78,13 +78,8 @@ a {
 
 
 @media screen and (max-width: 600px) {
-  nav {
-    ul {
-      display: none;
-    }
-
-    .hamburger {
-      display: flex;
-    }
+  main {    
+    display: flex;
+    flex-direction: column-reverse;
   }
 }

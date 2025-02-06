@@ -78,8 +78,8 @@ a {
 
 
 @media screen and (min-width: 678px) {
-  body{
-    width: 50%;
-    margin: auto;
+  main {    
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
