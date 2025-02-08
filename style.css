@@ -79,10 +79,10 @@ a {
   color: white;
 }
   
-@media screen and (max-width: 500px) 
+@media screen and (max-width: 800px) 
 {
-  main {    
+  .articles {    
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
